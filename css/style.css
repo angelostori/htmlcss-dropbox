@@ -1,0 +1,53 @@
+/*--COMMON--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        padding: 8px 12px;
+
+    }
+
+.d-flex{
+    display: flex;
+}
+
+/*--UTILITY--*/
+.blu_btn{
+    color: white;
+    display: inline-block;
+    background-color: #0061fe;
+
+}
+
+/*--LIST--*/
+.unstyled_list{
+    list-style: none;
+}
+
+.unstyled_list.d-flex {
+    flex-wrap: nowrap;
+}
+
+.unstyled_list li a {
+    white-space: nowrap;
+}
+
+/*--HEADER--*/
+header img{
+    padding-right: 1rem;
+    height: 80%;
+    margin: auto 0;
+}
+
+.h_banner{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 1rem;
+}
