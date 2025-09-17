@@ -1,4 +1,4 @@
-/*--COMMON--*/
+/*#region--COMMON--*/
 *{
     margin: 0;
     padding: 0;
@@ -13,19 +13,26 @@ a{
 
     }
 
+hr{
+    margin: 5rem 0;
+    border: none;
+    height: 1px;
+    background-color: whitesmoke;
+}
+
 .d-flex{
     display: flex;
 }
-
-/*--UTILITY--*/
+/*#endregion*/
+/*#region--UTILITY--*/
 .blu_btn{
     color: white;
     display: inline-block;
     background-color: #0061fe;
 
 }
-
-/*--LIST--*/
+/*#endregion*/
+/*#region--LIST--*/
 .unstyled_list{
     list-style: none;
 }
@@ -37,8 +44,8 @@ a{
 .unstyled_list li a {
     white-space: nowrap;
 }
-
-/*--HEADER--*/
+/*#endregion*/
+/*#region--HEADER--*/
 header{
     font-size: 0.8rem;
 }
@@ -56,8 +63,8 @@ header img{
     justify-content: space-between;
     padding: 1rem;
 }
-
-/*--MAIN--*/
+/*#endregion*/
+/*#region--JUMBOTRON--*/
 
 .jumbotron{
     background-color: #b4d0e7;
@@ -85,7 +92,7 @@ header img{
 
 .jumbo_img{
     top: 9%;
-    width: 71%;
+    width: 55%;
     position: absolute;
     left: 40%;
 }
@@ -103,4 +110,29 @@ header img{
     h1{
         font-size: 3.5rem;
     }
+}
+/*#endregion*/
+/*--MAIN--*/
+
+.container{
+    width: 60%;
+    margin: auto;
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+
+        .col{
+            width: 30%;
+        }
+    }
+}
+
+/*--debug--*/
+.debug *{
+    border: dashed;
+}
+
+.debug .col{
+    height: 40rem;
 }
