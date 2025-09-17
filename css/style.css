@@ -124,8 +124,13 @@ header img{
 
         .col{
             width: 30%;
+            padding: 1rem;
         }
     }
+}
+
+.mb-4{
+    margin-bottom: 4rem;
 }
 
 /*--debug--*/
@@ -135,4 +140,8 @@ header img{
 
 .debug .col{
     height: 40rem;
+}
+
+.debug .blocco_orizzontale{
+    height: 5rem;
 }
