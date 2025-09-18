@@ -118,16 +118,16 @@ header img{
     width: 60%;
     margin: auto;
     max-width: 1200px;
+}
 
-    .row{
-        display: flex;
-        justify-content: space-between;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-        .col{
-            width: 30%;
-            padding: 1rem;
-        }
-    }
+.col{
+    width: calc(100% / 3);
+    padding: 1rem;
 }
 
 .mb-4{
