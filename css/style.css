@@ -272,6 +272,35 @@ header img{
     }
 }
 /*#endregion*/
+/*#region--PARTNER--*/
+.partner{
+
+    #partner_left{
+        width: 60%;
+        margin: 0 auto;
+
+        img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    #partner_right{
+        width: 40%;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+
+        *{
+            margin-bottom: 1rem;
+        }
+
+        a{
+            margin-top: 0.5rem;
+            border: 1px solid;
+        }
+    }
+}
+/*#ENDREGION*/
 /*#region--FOOTER*/
 .col-5{
     width: calc(100% / 5);
