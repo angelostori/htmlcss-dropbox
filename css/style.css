@@ -134,7 +134,11 @@ header img{
     margin-bottom: 4rem;
 }
 /*#endregion*/
-
+/*#region--FOOTER*/
+.col-5{
+    width: calc(100% / 5);
+}
+/*#endregion*/
 /*--debug--*/
 .debug *{
     border: dashed;
@@ -146,4 +150,21 @@ header img{
 
 .debug .blocco_orizzontale{
     height: 5rem;
+}
+
+footer.debug{
+    background-color: aqua;
+    height: 150px;
+
+    .container_large{
+        height: 100%;
+    } 
+
+    .col-5{
+        height: 100%;
+    }
+
+    .row{
+        height: 100%;
+    }
 }
