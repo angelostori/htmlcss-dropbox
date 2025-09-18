@@ -183,6 +183,13 @@ header img{
     margin-right: 2rem;
 }
 
+.tariffa ul{
+    list-style: none;
+    li{
+        padding: 1rem 0;
+    }
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -216,6 +223,30 @@ header img{
 
 .col_container .period{
     color: #ccc;
+}
+
+.col_checklist{
+    list-style: none;
+    i{
+        color: #2196F3;
+    }
+    li{
+        gap: 0.5rem;
+        padding: 1rem 0;
+    }
+}
+
+.buynow{
+    a{
+        color: #2196F3;
+        text-decoration: underline;
+    }
+}
+
+.margin_small{
+    padding: 8px 0 40px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
 }
 
 .mb-4{
