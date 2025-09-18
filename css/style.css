@@ -194,6 +194,7 @@ header img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
 
 .col{
@@ -252,38 +253,27 @@ header img{
 .mb-4{
     margin-bottom: 4rem;
 }
+
+.blocco_orizzontale{
+    border: 1px solid #ccc;
+    width: 100%;
+
+    .team_title{
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    strong{
+        padding: 0 1rem;
+    }
+
+    #team_p{
+        padding: 3rem 1rem 1rem 1rem;
+    }
+}
 /*#endregion*/
 /*#region--FOOTER*/
 .col-5{
     width: calc(100% / 5);
 }
 /*#endregion*/
-/*--debug--*/
-.debug *{
-    border: dashed;
-}
-
-.debug .col{
-    height: 40rem;
-}
-
-.debug .blocco_orizzontale{
-    height: 5rem;
-}
-
-footer.debug{
-    background-color: aqua;
-    height: 150px;
-
-    .container_large{
-        height: 100%;
-    } 
-
-    .col-5{
-        height: 100%;
-    }
-
-    .row{
-        height: 100%;
-    }
-}
