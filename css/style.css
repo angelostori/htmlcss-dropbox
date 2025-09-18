@@ -300,7 +300,17 @@ header img{
         }
     }
 }
-/*#ENDREGION*/
+/*#endregion*/
+/*OPERAZIONI*/
+.op_col{
+    width: calc(90% / 3);
+    flex-direction: column;
+   
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
 /*#region--FOOTER*/
 .col-5{
     width: calc(100% / 5);
