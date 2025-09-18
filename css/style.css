@@ -112,7 +112,7 @@ header img{
     }
 }
 /*#endregion*/
-/*--MAIN--*/
+/*#region--MAIN--*/
 
 .container{
     width: 60%;
@@ -133,6 +133,7 @@ header img{
 .mb-4{
     margin-bottom: 4rem;
 }
+/*#endregion*/
 
 /*--debug--*/
 .debug *{
