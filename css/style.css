@@ -302,6 +302,14 @@ header img{
 }
 /*#endregion*/
 /*OPERAZIONI*/
+.operation{
+    margin: 4rem 0;
+
+    .row{
+        gap: 20px;
+    }
+}
+
 .op_col{
     width: calc(90% / 3);
     flex-direction: column;
@@ -309,6 +317,10 @@ header img{
     img{
         max-width: 100%;
         height: auto;
+    }
+
+    *{
+        margin-bottom: 1rem;
     }
 }
 /*#region--FOOTER*/
