@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -17,7 +18,7 @@ hr{
     margin: 5rem 0;
     border: none;
     height: 1px;
-    background-color: whitesmoke;
+    background-color: #ededee;
 }
 
 .d-flex{
@@ -31,6 +32,64 @@ hr{
     background-color: #0061fe;
 
 }
+
+.fatturazione {
+  display: block;
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.fatturazione input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.fatturazione:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.fatturazione input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.fatturazione input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.fatturazione .checkmark:after {
+    top: 1px;
+    left: 1%;
+    width: 13px;
+    height: 12px;
+	border-radius: 50%;
+	background: white;
+}
+
+
 /*#endregion*/
 /*#region--LIST--*/
 .unstyled_list{
